@@ -1,6 +1,8 @@
 # Pam-s-Food-Crafting-Repices
 ## Pam's HarvestCraft 2 Mod running on Bukkit Server by using ItemsAdder
-## Original source coding by Zibuu(User on https://polymart.org/team/zibuu.222)
+## 用ItemsAdder插件在Bukkit服务器上实现类似潘马斯2模组的IA拓展包
+## Original source coding by zibuu(User on https://polymart.org/team/zibuu.222)
+## 原始代码来自zibbu
 ## 目前进度：
 ### 潘马斯2——食物核心包：100%
 ### 潘马斯2——作物包：100%
