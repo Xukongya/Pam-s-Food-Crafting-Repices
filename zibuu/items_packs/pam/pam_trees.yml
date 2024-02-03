@@ -1,0 +1,1403 @@
+info:
+  namespace: pam
+items:
+  acornitem:
+    display_name: display-name-acornitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/acornitem.png
+  almonditem:
+    display_name: display-name-almonditem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/almonditem.png
+  apricotitem:
+    display_name: display-name-apricotitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/apricotitem.png
+  avocadoitem:
+    display_name: display-name-avocadoitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/avocadoitem.png
+  bananaitem:
+    display_name: display-name-bananaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/bananaitem.png
+  breadfruititem:
+    display_name: display-name-breadfruititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/breadfruititem.png
+  candlenutitem:
+    display_name: display-name-candlenutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/candlenutitem.png
+  cashewitem:
+    display_name: display-name-cashewitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/cashewitem.png
+  cherryitem:
+    display_name: display-name-cherryitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/cherryitem.png
+  chestnutitem:
+    display_name: display-name-chestnutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/chestnutitem.png
+  cinnamonitem:
+    display_name: display-name-cinnamonitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/cinnamonitem.png
+  coconutitem:
+    display_name: display-name-coconutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/coconutitem.png
+  dateitem:
+    display_name: display-name-dateitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/dateitem.png
+  dragonfruititem:
+    display_name: display-name-dragonfruititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/dragonfruititem.png
+  durianitem:
+    display_name: display-name-durianitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/durianitem.png
+  figitem:
+    display_name: display-name-figitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/figitem.png
+  gooseberryitem:
+    display_name: display-name-gooseberryitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/gooseberryitem.png
+  grapefruititem:
+    display_name: display-name-grapefruititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/grapefruititem.png
+  guavaitem:
+    display_name: display-name-guavaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/guavaitem.png
+  hazelnutitem:
+    display_name: display-name-hazelnutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/hazelnutitem.png
+  jackfruititem:
+    display_name: display-name-jackfruititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/jackfruititem.png
+  lemonitem:
+    display_name: display-name-lemonitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/lemonitem.png
+  limeitem:
+    display_name: display-name-limeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/limeitem.png
+  lycheeitem:
+    display_name: display-name-lycheeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/lycheeitem.png
+  mangoitem:
+    display_name: display-name-mangoitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/mangoitem.png
+  maplesyrupitem:
+    display_name: display-name-maplesyrupitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/maplesyrupitem.png
+  nutmegitem:
+    display_name: display-name-nutmegitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/nutmegitem.png
+  oliveitem:
+    display_name: display-name-oliveitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/oliveitem.png
+  orangeitem:
+    display_name: display-name-orangeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/orangeitem.png
+  papayaitem:
+    display_name: display-name-papayaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/papayaitem.png
+  passionfruititem:
+    display_name: display-name-passionfruititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/passionfruititem.png
+  pawpawitem:
+    display_name: display-name-pawpawitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/pawpawitem.png
+  peachitem:
+    display_name: display-name-peachitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/peachitem.png
+  pearitem:
+    display_name: display-name-pearitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/pearitem.png
+  pecanitem:
+    display_name: display-name-pecanitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/pecanitem.png
+  peppercornitem:
+    display_name: display-name-peppercornitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/peppercornitem.png
+  persimmonitem:
+    display_name: display-name-persimmonitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/persimmonitem.png
+  pinenutitem:
+    display_name: display-name-pinenutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/pinenutitem.png
+  pistachioitem:
+    display_name: display-name-pistachioitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/pistachioitem.png
+  plumitem:
+    display_name: display-name-plumitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/plumitem.png
+  pomegranateitem:
+    display_name: display-name-pomegranateitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/pomegranateitem.png
+  rambutanitem:
+    display_name: display-name-rambutanitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/rambutanitem.png
+  roastedacornitem:
+    display_name: display-name-roastedacornitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedacornitem.png
+  roastedalmonditem:
+    display_name: display-name-roastedalmonditem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedalmonditem.png
+  roastedcashewitem:
+    display_name: display-name-roastedcashewitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedcashewitem.png
+  roastedchestnutitem:
+    display_name: display-name-roastedchestnutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedchestnutitem.png
+  roastedhazelnutitem:
+    display_name: display-name-roastedhazelnutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedhazelnutitem.png
+  roastedpecanitem:
+    display_name: display-name-roastedpecanitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedpecanitem.png
+  roastedpinenutitem:
+    display_name: display-name-roastedpinenutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedpinenutitem.png
+  roastedpistachioitem:
+    display_name: display-name-roastedpistachioitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedpistachioitem.png
+  roastedwalnutitem:
+    display_name: display-name-roastedwalnutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/roastedwalnutitem.png
+  soursopitem:
+    display_name: display-name-soursopitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/soursopitem.png
+  starfruititem:
+    display_name: display-name-starfruititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/starfruititem.png
+  tamarinditem:
+    display_name: display-name-tamarinditem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/tamarinditem.png
+  vanillabeanitem:
+    display_name: display-name-vanillabeanitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/vanillabeanitem.png
+  walnutitem:
+    display_name: display-name-walnutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Frutas y Verduras'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/trees/walnutitem.png

@@ -1,0 +1,18 @@
+info:
+  namespace: pam
+
+categories:
+  pam_materials:
+    enabled: true
+    name: Utencilios de cocina
+    icon: pam:potitem
+    items:
+    - pam:bakewareitem
+    - pam:cuttingboarditem
+    - pam:grinderitem
+    - pam:juiceritem
+    - pam:mixingbowlitem
+    - pam:potitem
+    - pam:saucepanitem
+    - pam:rolleritem
+    - pam:skilletitem

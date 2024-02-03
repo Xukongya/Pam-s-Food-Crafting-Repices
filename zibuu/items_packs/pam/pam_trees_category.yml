@@ -1,0 +1,56 @@
+info:
+  namespace: pam
+
+categories:
+  pam_trees:
+    enabled: true
+    name: Frutas y Verduras
+    icon: pam:bananaitem
+    items:
+    - pam:acornitem
+    - pam:almonditem
+    - pam:apricotitem
+    - pam:avocadoitem
+    - pam:bananaitem
+    - pam:breadfruititem
+    - pam:candlenutitem
+    - pam:cashewitem
+    - pam:cherryitem
+    - pam:chestnutitem
+    - pam:cinnamonitem
+    - pam:coconutitem
+    - pam:dateitem
+    - pam:dragonfruititem
+    - pam:durianitem
+    - pam:figitem
+    - pam:gooseberryitem
+    - pam:grapefruititem
+    - pam:guavaitem
+    - pam:hazelnutitem
+    - pam:jackfruititem
+    - pam:lemonitem
+    - pam:limeitem
+    - pam:lycheeitem
+    - pam:mangoitem
+    - pam:maplesyrupitem
+    - pam:nutmegitem
+    - pam:oliveitem
+    - pam:orangeitem
+    - pam:papayaitem
+    - pam:passionfruititem
+    - pam:pawpawitem
+    - pam:peachitem
+    - pam:pearitem
+    - pam:pecanitem
+    - pam:peppercornitem
+    - pam:persimmonitem
+    - pam:pinenutitem
+    - pam:pistachioitem
+    - pam:plumitem
+    - pam:pomegranateitem
+    - pam:rambutanitem
+    - pam:soursopitem
+    - pam:starfruititem
+    - pam:tamarinditem
+    - pam:vanillabeanitem
+    - pam:walnutitem

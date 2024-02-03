@@ -1,0 +1,4084 @@
+info:
+  namespace: pam
+items:
+  applejellyitem:
+    display_name: display-name-applejellyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 7
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/applejellyitem.png
+  applejellytoastitem:
+    display_name: display-name-applejellytoastitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 15
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/applejellytoastitem.png
+  applejuiceitem:
+    display_name: display-name-applejuiceitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/applejuiceitem.png
+  applepieitem:
+    display_name: display-name-applepieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/applepieitem.png
+  applesauceitem:
+    display_name: display-name-applesauceitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/applesauceitem.png
+  applesmoothieitem:
+    display_name: display-name-applesmoothieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 14
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/applesmoothieitem.png
+  appleyogurtitem:
+    display_name: display-name-appleyogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/appleyogurtitem.png
+  baconandeggsitem:
+    display_name: display-name-baconandeggsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 7
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/baconandeggsitem.png
+  baconcheeseburgeritem:
+    display_name: display-name-baconcheeseburgeritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 13
+          saturation: 31
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/baconcheeseburgeritem.png
+  bakedarrowrootitem:
+    display_name: display-name-bakedarrowrootitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedarrowrootitem.png
+  bakedcassavaitem:
+    display_name: display-name-bakedcassavaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedcassavaitem.png
+  bakedjicamaitem:
+    display_name: display-name-bakedjicamaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedjicamaitem.png
+  bakedparsnipitem:
+    display_name: display-name-bakedparsnipitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedparsnipitem.png
+  bakedrutabagaitem:
+    display_name: display-name-bakedrutabagaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedrutabagaitem.png
+  bakedsunchokeitem:
+    display_name: display-name-bakedsunchokeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedsunchokeitem.png
+  bakedsweetpotatoitem:
+    display_name: display-name-bakedsweetpotatoitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedsweetpotatoitem.png
+  bakedtaroitem:
+    display_name: display-name-bakedtaroitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedtaroitem.png
+  bakedturnipitem:
+    display_name: display-name-bakedturnipitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedturnipitem.png
+  bakedvegetablemedlyitem:
+    display_name: display-name-bakedvegetablemedlyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/bakedvegetablemedlyitem.png
+  bakedwaterchestnutitem:
+    display_name: display-name-bakedwaterchestnutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&a+1 &7Saturacion'
+    - '&a+1 &7Comida'
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/bakedwaterchestnutitem.png
+  basiccheeseburgeritem:
+    display_name: display-name-basiccheeseburgeritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 9
+          saturation: 21
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/basiccheeseburgeritem.png
+  basicchickensandwichitem:
+    display_name: display-name-basicchickensandwichitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 15
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/basicchickensandwichitem.png
+  basicfishsandwichitem:
+    display_name: display-name-basicfishsandwichitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 15
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/basicfishsandwichitem.png
+  basichamburgeritem:
+    display_name: display-name-basichamburgeritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 7
+          saturation: 16
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/basichamburgeritem.png
+  batteritem:
+    display_name: display-name-batteritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/batteritem.png
+  beefjerkyitem:
+    display_name: display-name-beefjerkyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/beefjerkyitem.png
+  boiledeggitem:
+    display_name: display-name-boiledeggitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/boiledeggitem.png
+  butteredbakedpotatoitem:
+    display_name: display-name-butteredbakedpotatoitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 14
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/butteredbakedpotatoitem.png
+  butteritem:
+    display_name: display-name-butteritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 9
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/butteritem.png
+  caramelappleitem:
+    display_name: display-name-caramelappleitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/caramelappleitem.png
+  caramelcupcakeitem:
+    display_name: display-name-caramelcupcakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/caramelcupcakeitem.png
+  caramelicecreamitem:
+    display_name: display-name-caramelicecreamitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/caramelicecreamitem.png
+  caramelitem:
+    display_name: display-name-caramelitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/caramelitem.png
+  caramelmuffinitem:
+    display_name: display-name-caramelmuffinitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/caramelmuffinitem.png
+  caramelyogurtitem:
+    display_name: display-name-caramelyogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/caramelyogurtitem.png
+  carrotbreaditem:
+    display_name: display-name-carrotbreaditem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 9
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/carrotbreaditem.png
+  carrotcakeitem:
+    display_name: display-name-carrotcakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/carrotcakeitem.png
+  carrotcupcakeitem:
+    display_name: display-name-carrotcupcakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/carrotcupcakeitem.png
+  carrotmuffinitem:
+    display_name: display-name-carrotmuffinitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/carrotmuffinitem.png
+  carrotsoupitem:
+    display_name: display-name-carrotsoupitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 9
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/carrotsoupitem.png
+  cheesecakeitem:
+    display_name: display-name-cheesecakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cheesecakeitem.png
+  cheeseitem:
+    display_name: display-name-cheeseitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cheeseitem.png
+  chickendinneritem:
+    display_name: display-name-chickendinneritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 11
+          saturation: 26
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chickendinneritem.png
+  chickenjerkyitem:
+    display_name: display-name-chickenjerkyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chickenjerkyitem.png
+  chickennuggetitem:
+    display_name: display-name-chickennuggetitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chickennuggetitem.png
+  chickenpotpieitem:
+    display_name: display-name-chickenpotpieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chickenpotpieitem.png
+  chocolatebaconitem:
+    display_name: display-name-chocolatebaconitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatebaconitem.png
+  chocolatebaritem:
+    display_name: display-name-chocolatebaritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatebaritem.png
+  chocolatecakeitem:
+    display_name: display-name-chocolatecakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 9
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatecakeitem.png
+  chocolatecaramelfudgeitem:
+    display_name: display-name-chocolatecaramelfudgeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatecaramelfudgeitem.png
+  chocolatecupcakeitem:
+    display_name: display-name-chocolatecupcakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatecupcakeitem.png
+  chocolatedonutitem:
+    display_name: display-name-chocolatedonutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatedonutitem.png
+  chocolateicecreamitem:
+    display_name: display-name-chocolateicecreamitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolateicecreamitem.png
+  chocolatemilkitem:
+    display_name: display-name-chocolatemilkitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatemilkitem.png
+  chocolatemilkshakeitem:
+    display_name: display-name-chocolatemilkshakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatemilkshakeitem.png
+  chocolatemuffinitem:
+    display_name: display-name-chocolatemuffinitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatemuffinitem.png
+  chocolatepuddingitem:
+    display_name: display-name-chocolatepuddingitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolatepuddingitem.png
+  chocolaterollitem:
+    display_name: display-name-chocolaterollitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolaterollitem.png
+  chocolateyogurtitem:
+    display_name: display-name-chocolateyogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/chocolateyogurtitem.png
+  cocoapowderitem:
+    display_name: display-name-cocoapowderitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cocoapowderitem.png
+  cookedgroundbeefitem:
+    display_name: display-name-cookedgroundbeefitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookedgroundbeefitem.png
+  cookedgroundchickenitem:
+    display_name: display-name-cookedgroundchickenitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookedgroundchickenitem.png
+  cookedgroundfishitem:
+    display_name: display-name-cookedgroundfishitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookedgroundfishitem.png
+  cookedgroundmuttonitem:
+    display_name: display-name-cookedgroundmuttonitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 7
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookedgroundmuttonitem.png
+  cookedgroundporkitem:
+    display_name: display-name-cookedgroundporkitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookedgroundporkitem.png
+  cookedgroundrabbititem:
+    display_name: display-name-cookedgroundrabbititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookedgroundrabbititem.png
+  cookiesandmilkitem:
+    display_name: display-name-cookiesandmilkitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookiesandmilkitem.png
+  cookingoilitem:
+    display_name: display-name-cookingoilitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cookingoilitem.png
+  cottoncandyitem:
+    display_name: display-name-cottoncandyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/cottoncandyitem.png
+  crackeritem:
+    display_name: display-name-crackeritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/crackeritem.png
+  creamitem:
+    display_name: display-name-creamitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/creamitem.png
+  donutitem:
+    display_name: display-name-donutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/donutitem.png
+  doughitem:
+    display_name: display-name-doughitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/doughitem.png
+  epicbaconitem:
+    display_name: display-name-epicbaconitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 14
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/epicbaconitem.png
+  fishandchipsitem:
+    display_name: display-name-fishandchipsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 14
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/fishandchipsitem.png
+  fishjerkyitem:
+    display_name: display-name-fishjerkyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/fishjerkyitem.png
+  fishsticksitem:
+    display_name: display-name-fishsticksitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/fishsticksitem.png
+  flouritem:
+    display_name: display-name-flouritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: PAPER
+      textures:
+      - item/foods/flouritem.png
+  freshmilkitem:
+    display_name: display-name-freshmilkitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/freshmilkitem.png
+  freshwateritem:
+    display_name: display-name-freshwateritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/freshwateritem.png
+  friedchickenitem:
+    display_name: display-name-friedchickenitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/friedchickenitem.png
+  friedeggitem:
+    display_name: display-name-friedeggitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/friedeggitem.png
+  friesitem:
+    display_name: display-name-friesitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/friesitem.png
+  fruitcrumbleitem:
+    display_name: display-name-fruitcrumbleitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/fruitcrumbleitem.png
+  fruitpunchitem:
+    display_name: display-name-fruitpunchitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 7
+          saturation: 16
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/fruitpunchitem.png
+  fruitsaladitem:
+    display_name: display-name-fruitsaladitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/fruitsaladitem.png
+  glazedcarrotsitem:
+    display_name: display-name-glazedcarrotsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/glazedcarrotsitem.png
+  glowberryjellyitem:
+    display_name: display-name-glowberryjellyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/glowberryjellyitem.png
+  glowberryjellytoastitem:
+    display_name: display-name-glowberryjellytoastitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/glowberryjellytoastitem.png
+  glowberryjuiceitem:
+    display_name: display-name-glowberryjuiceitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/glowberryjuiceitem.png
+  glowberrypieitem:
+    display_name: display-name-glowberrypieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/glowberrypieitem.png
+  glowberrysmoothieitem:
+    display_name: display-name-glowberrysmoothieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/glowberrysmoothieitem.png
+  glowberryyogurtitem:
+    display_name: display-name-glowberryyogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/glowberryyogurtitem.png
+  grilledcheeseitem:
+    display_name: display-name-grilledcheeseitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 7
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/grilledcheeseitem.png
+  groundbeefitem:
+    display_name: display-name-groundbeefitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/groundbeefitem.png
+  groundchickenitem:
+    display_name: display-name-groundchickenitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/groundchickenitem.png
+  groundfishitem:
+    display_name: display-name-groundfishitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/groundfishitem.png
+  groundmuttonitem:
+    display_name: display-name-groundmuttonitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/groundmuttonitem.png
+  groundporkitem:
+    display_name: display-name-groundporkitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/groundporkitem.png
+  groundrabbititem:
+    display_name: display-name-groundrabbititem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/groundrabbititem.png
+  gummybearsitem:
+    display_name: display-name-gummybearsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/gummybearsitem.png
+  hotchocolateitem:
+    display_name: display-name-hotchocolateitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/hotchocolateitem.png
+  hotcoffeeitem:
+    display_name: display-name-hotcoffeeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+        potion_effect:
+          amplifier: 1
+          duration: 1200
+          type: SPEED
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/hotcoffeeitem.png
+  hotdogitem:
+    display_name: display-name-hotdogitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 16
+          saturation: 7
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/hotdogitem.png
+  hotnettleteaitem:
+    display_name: display-name-hotnettleteaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+        potion_effect:
+          amplifier: 1
+          duration: 1200
+          type: FAST_DIGGING
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/hotnettleteaitem.png
+  hotteaitem:
+    display_name: display-name-hotteaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+        potion_effect:
+          amplifier: 1
+          duration: 600
+          type: REGENERATION
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/hotteaitem.png
+  icecreamitem:
+    display_name: display-name-icecreamitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 7
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/icecreamitem.png
+  jellybeansitem:
+    display_name: display-name-jellybeansitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/jellybeansitem.png
+  jellydonutitem:
+    display_name: display-name-jellydonutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/jellydonutitem.png
+  macncheeseitem:
+    display_name: display-name-macncheeseitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/macncheeseitem.png
+  marshmellowchicksitem:
+    display_name: display-name-marshmellowchicksitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/marshmellowchicksitem.png
+  marshmellowsitem:
+    display_name: display-name-marshmellowsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/marshmellowsitem.png
+  mashedpotatoesitem:
+    display_name: display-name-mashedpotatoesitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 14
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/mashedpotatoesitem.png
+  mayonaiseitem:
+    display_name: display-name-mayonaiseitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/mayonaiseitem.png
+  meatloafitem:
+    display_name: display-name-meatloafitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/meatloafitem.png
+  melonjellyitem:
+    display_name: display-name-melonjellyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/melonjellyitem.png
+  melonjellytoastitem:
+    display_name: display-name-melonjellytoastitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/melonjellytoastitem.png
+  melonjuiceitem:
+    display_name: display-name-melonjuiceitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/melonjuiceitem.png
+  melonsmoothieitem:
+    display_name: display-name-melonsmoothieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/melonsmoothieitem.png
+  melonyogurtitem:
+    display_name: display-name-melonyogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/melonyogurtitem.png
+  muttonjerkyitem:
+    display_name: display-name-muttonjerkyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/muttonjerkyitem.png
+  noodlesitem:
+    display_name: display-name-noodlesitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/noodlesitem.png
+  noodlesoupitem:
+    display_name: display-name-noodlesoupitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 12
+          saturation: 5
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/noodlesoupitem.png
+  p8juiceitem:
+    display_name: display-name-p8juiceitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 20
+          saturation: 40
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/p8juiceitem.png
+  pastaitem:
+    display_name: display-name-pastaitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pastaitem.png
+  pickledbeetsitem:
+    display_name: display-name-pickledbeetsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pickledbeetsitem.png
+  porkjerkyitem:
+    display_name: display-name-porkjerkyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/porkjerkyitem.png
+  potatochipsitem:
+    display_name: display-name-potatochipsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/potatochipsitem.png
+  potatosaladitem:
+    display_name: display-name-potatosaladitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/potatosaladitem.png
+  potatosoupitem:
+    display_name: display-name-potatosoupitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/potatosoupitem.png
+  potroastitem:
+    display_name: display-name-potroastitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 10
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/potroastitem.png
+  pumpkinbreaditem:
+    display_name: display-name-pumpkinbreaditem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pumpkinbreaditem.png
+  pumpkincheesecakeitem:
+    display_name: display-name-pumpkincheesecakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 6
+          saturation: 15
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pumpkincheesecakeitem.png
+  pumpkincupcakeitem:
+    display_name: display-name-pumpkincupcakeitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 3
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pumpkincupcakeitem.png
+  pumpkinmuffinitem:
+    display_name: display-name-pumpkinmuffinitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pumpkinmuffinitem.png
+  pumpkinsoupitem:
+    display_name: display-name-pumpkinsoupitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pumpkinsoupitem.png
+  pumpkinyogurtitem:
+    display_name: display-name-pumpkinyogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/pumpkinyogurtitem.png
+  rabbitjerkyitem:
+    display_name: display-name-rabbitjerkyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/rabbitjerkyitem.png
+  roastedgarlicitem:
+    display_name: display-name-roastedgarlicitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedgarlicitem.png
+  roastedkohlrabiitem:
+    display_name: display-name-roastedkohlrabiitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedkohlrabiitem.png
+  roastedleekitem:
+    display_name: display-name-roastedleekitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedleekitem.png
+  roastedmushroomitem:
+    display_name: display-name-roastedmushroomitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedmushroomitem.png
+  roastedonionitem:
+    display_name: display-name-roastedonionitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedonionitem.png
+  roastedpeanutitem:
+    display_name: display-name-roastedpeanutitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedpeanutitem.png
+  roastedradishitem:
+    display_name: display-name-roastedradishitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedradishitem.png
+  roastedrhubarbitem:
+    display_name: display-name-roastedrhubarbitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedrhubarbitem.png
+  roastedscallionitem:
+    display_name: display-name-roastedscallionitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Semillas e Ingredientes'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/crops/roastedscallionitem.png
+  roastedsunflowerseedsitem:
+    display_name: display-name-roastedsunflowerseedsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/roastedsunflowerseedsitem.png
+  saltitem:
+    display_name: display-name-saltitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/saltitem.png
+  scrambledeggitem:
+    display_name: display-name-scrambledeggitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/scrambledeggitem.png
+  smoresitem:
+    display_name: display-name-smoresitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 12
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/smoresitem.png
+  softpretzelitem:
+    display_name: display-name-softpretzelitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/softpretzelitem.png
+  stewitem:
+    display_name: display-name-stewitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 7
+          saturation: 18
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/stewitem.png
+  stockitem:
+    display_name: display-name-stockitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 8
+          saturation: 18
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/stockitem.png
+  sunflowerseedsitem:
+    display_name: display-name-sunflowerseedsitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 2
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/sunflowerseedsitem.png
+  sweetberryjellyitem:
+    display_name: display-name-sweetberryjellyitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/sweetberryjellyitem.png
+  sweetberryjellytoastitem:
+    display_name: display-name-sweetberryjellytoastitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 5
+          saturation: 11
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/sweetberryjellytoastitem.png
+  sweetberryjuiceitem:
+    display_name: display-name-sweetberryjuiceitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/sweetberryjuiceitem.png
+  sweetberrypieitem:
+    display_name: display-name-sweetberrypieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/sweetberrypieitem.png
+  sweetberrysmoothieitem:
+    display_name: display-name-sweetberrysmoothieitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/sweetberrysmoothieitem.png
+  sweetberryyogurtitem:
+    display_name: display-name-sweetberryyogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/sweetberryyogurtitem.png
+  toastitem:
+    display_name: display-name-toastitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 3
+          saturation: 6
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/toastitem.png
+  trailmixitem:
+    display_name: display-name-trailmixitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 4
+          saturation: 8
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.eat
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/trailmixitem.png
+  vinegaritem:
+    display_name: display-name-vinegaritem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 1
+          saturation: 1
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/vinegaritem.png
+  yogurtitem:
+    display_name: display-name-yogurtitem
+    durability:
+      disappear_when_broken: true
+      usages: 1
+    events:
+      eat:
+        decrement_amount:
+          amount: 1
+        feed:
+          amount: 2
+          saturation: 4
+        play_sound:
+          delay: 0
+          name: minecraft:entity.generic.drink
+    lore:
+    - '&f'
+    - '&f'
+    - '&f'
+    - '&8Aperitivos y Comidas'
+    resource:
+      generate: true
+      material: DRIED_KELP
+      textures:
+      - item/foods/yogurtitem.png

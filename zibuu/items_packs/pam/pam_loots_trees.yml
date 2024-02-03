@@ -1,0 +1,4001 @@
+info:
+  namespace: pam
+
+loots:
+  blocks:
+    oak_leaves:
+      type: OAK_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - ERODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - ERODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    spruce_leaves:
+      type: SPRUCE_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - ERODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - ERODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - ERODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    birch_leaves:
+      type: BIRCH_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    jungle_leaves:
+      type: JUNGLE_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    acacia_leaves:
+      type: ACACIA_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    dark_oak_leaves:
+      type: DARK_OAK_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - FROZEN_RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    mangrove_leaves:
+      type: MANGROVE_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - OLD_GROWTH_SPRUCE_TAIGE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    cherry_leaves:
+      type: CHERRY_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - DARK_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - WINDSWEPT_GRAVELLY_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - ERODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - STONY_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - SNOWY_BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - ICE_SPIKES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - BAMBOO_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - MEADOW
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
+    azalea_leaves:
+      type: AZALEA_LEAVES
+      items:
+        acornitem:
+          biomes:
+          - CHERRY_GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:acornitem
+          max_amount: 1
+          min_amount: 0
+        almonditem:
+          biomes:
+          - GROVE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:almonditem
+          max_amount: 1
+          min_amount: 0
+        apricotitem:
+          biomes:
+          - WINDSWEPT_SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:apricotitem
+          max_amount: 1
+          min_amount: 0
+        avocadoitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:avocadoitem
+          max_amount: 1
+          min_amount: 0
+        bananaitem:
+          biomes:
+          - BEACH
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:bananaitem
+          max_amount: 1
+          min_amount: 0
+        breadfruititem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:breadfruititem
+          max_amount: 1
+          min_amount: 0
+        candlenutitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:candlenutitem
+          max_amount: 1
+          min_amount: 0
+        cashewitem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cashewitem
+          max_amount: 1
+          min_amount: 0
+        cherryitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cherryitem
+          max_amount: 1
+          min_amount: 0
+        chestnutitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:chestnutitem
+          max_amount: 1
+          min_amount: 0
+        cinnamonitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:cinnamonitem
+          max_amount: 1
+          min_amount: 0
+        coconutitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:coconutitem
+          max_amount: 1
+          min_amount: 0
+        dateitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dateitem
+          max_amount: 1
+          min_amount: 0
+        dragonfruititem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:dragonfruititem
+          max_amount: 1
+          min_amount: 0
+        durianitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:durianitem
+          max_amount: 1
+          min_amount: 0
+        figitem:
+          biomes:
+          - SAVANNA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:figitem
+          max_amount: 1
+          min_amount: 0
+        gooseberryitem:
+          biomes:
+          - SNOWY_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:gooseberryitem
+          max_amount: 1
+          min_amount: 0
+        grapefruititem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:grapefruititem
+          max_amount: 1
+          min_amount: 0
+        guavaitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:guavaitem
+          max_amount: 1
+          min_amount: 0
+        hazelnutitem:
+          biomes:
+          - TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:hazelnutitem
+          max_amount: 1
+          min_amount: 0
+        jackfruititem:
+          biomes:
+          - RIVER
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:jackfruititem
+          max_amount: 1
+          min_amount: 0
+        lemonitem:
+          biomes:
+          - ERODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lemonitem
+          max_amount: 1
+          min_amount: 0
+        limeitem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:limeitem
+          max_amount: 1
+          min_amount: 0
+        lycheeitem:
+          biomes:
+          - SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:lycheeitem
+          max_amount: 1
+          min_amount: 0
+        mangoitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:mangoitem
+          max_amount: 1
+          min_amount: 0
+        maplesyrupitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:maplesyrupitem
+          max_amount: 1
+          min_amount: 0
+        nutmegitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:nutmegitem
+          max_amount: 1
+          min_amount: 0
+        oliveitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:oliveitem
+          max_amount: 1
+          min_amount: 0
+        orangeitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:orangeitem
+          max_amount: 1
+          min_amount: 0
+        papayaitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:papayaitem
+          max_amount: 1
+          min_amount: 0
+        passionfruititem:
+          biomes:
+          - WOODED_BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:passionfruititem
+          max_amount: 1
+          min_amount: 0
+        pawpawitem:
+          biomes:
+          - BADLANDS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pawpawitem
+          max_amount: 1
+          min_amount: 0
+        peachitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peachitem
+          max_amount: 1
+          min_amount: 0
+        pearitem:
+          biomes:
+          - JAGGED_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pearitem
+          max_amount: 1
+          min_amount: 0
+        pecanitem:
+          biomes:
+          - WINDSWEPT_HILLS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pecanitem
+          max_amount: 1
+          min_amount: 0
+        peppercornitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:peppercornitem
+          max_amount: 1
+          min_amount: 0
+        persimmonitem:
+          biomes:
+          - JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:persimmonitem
+          max_amount: 1
+          min_amount: 0
+        pinenutitem:
+          biomes:
+          - MANGROVE_SWAMP
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pinenutitem
+          max_amount: 1
+          min_amount: 0
+        pistachioitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pistachioitem
+          max_amount: 1
+          min_amount: 0
+        plumitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:plumitem
+          max_amount: 1
+          min_amount: 0
+        pomegranateitem:
+          biomes:
+          - SAVANNA_PLATEAU
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:pomegranateitem
+          max_amount: 1
+          min_amount: 0
+        rambutanitem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:rambutanitem
+          max_amount: 1
+          min_amount: 0
+        roastedacornitem:
+          biomes:
+          - WINDSWEPT_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedacornitem
+          max_amount: 1
+          min_amount: 0
+        roastedalmonditem:
+          biomes:
+          - SUNFLOWER_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedalmonditem
+          max_amount: 1
+          min_amount: 0
+        roastedcashewitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedcashewitem
+          max_amount: 1
+          min_amount: 0
+        roastedchestnutitem:
+          biomes:
+          - OLD_GROWTH_BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedchestnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedhazelnutitem:
+          biomes:
+          - FROZEN_PEAKS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedhazelnutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpecanitem:
+          biomes:
+          - FLOWER_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpecanitem
+          max_amount: 1
+          min_amount: 0
+        roastedpinenutitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpinenutitem
+          max_amount: 1
+          min_amount: 0
+        roastedpistachioitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedpistachioitem
+          max_amount: 1
+          min_amount: 0
+        roastedwalnutitem:
+          biomes:
+          - BIRCH_FOREST
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:roastedwalnutitem
+          max_amount: 1
+          min_amount: 0
+        soursopitem:
+          biomes:
+          - SPARSE_JUNGLE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:soursopitem
+          max_amount: 1
+          min_amount: 0
+        starfruititem:
+          biomes:
+          - OLD_GROWTH_PINE_TAIGA
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:starfruititem
+          max_amount: 1
+          min_amount: 0
+        tamarinditem:
+          biomes:
+          - SNOWY_PLAINS
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:tamarinditem
+          max_amount: 1
+          min_amount: 0
+        vanillabeanitem:
+          biomes:
+          - SNOWY_SLOPES
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:vanillabeanitem
+          max_amount: 1
+          min_amount: 0
+        walnutitem:
+          biomes:
+          - STONY_SHORE
+          chance: 0.1
+          ignore_fortune: true
+          item: pam:walnutitem
+          max_amount: 1
+          min_amount: 0
+
