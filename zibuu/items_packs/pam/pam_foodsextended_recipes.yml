@@ -73,11 +73,11 @@ recipes:
         E: pam:cookingoilitem
       result:
         amount: 1
-        item: pam:potitem
+        item: pam:applefritteritem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     applejellysandwich:
