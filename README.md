@@ -40,3 +40,21 @@
               amount: 0
       shapeless: false
   #### 3、若游戏中用到矿物辞典的合成，请务必对应到具体物品
+  #### 4、若调用Minecraft的原版物品参与合成，请使用大写（如BREAD）
+  #### 例子：
+      cantaloupejellysandwich:
+      enabled: true
+      ingredients:
+        A: pam:cuttingboarditem
+        B: pam:cantaloupejellyitem
+        C: BREAD #原版物品（面包）
+        D: pam:chestnutbutteritem
+      result:
+        amount: 1
+        item: pam:cantaloupejellysandwichitem
+      return_item:
+        decrement_durability:
+          roller:
+            item: pam:rolleritem
+            amount: 0
+      shapeless: true
