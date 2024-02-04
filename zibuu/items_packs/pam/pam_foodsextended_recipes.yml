@@ -6,14 +6,19 @@ recipes:
     aebleskivers:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:flouritem
+        C: pam:freshmilkitem
+        D: EGG
+        E: SUGAR
+        F: pam:saltitem
       result:
         amount: 1
         item: pam:aebleskiversitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     almondbutter:
@@ -83,27 +88,33 @@ recipes:
     applejellysandwich:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:applejellyitem
+        C: BREAD
+        D: pam:almondbutteritem
       result:
         amount: 1
         item: pam:applejellysandwichitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     applesnow:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:meringueitem
+        C: pam:butteritem
+        D: APPLE
       result:
         amount: 1
         item: pam:applesnowitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     apricotglazedpork:
@@ -257,14 +268,19 @@ recipes:
     avocadotoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:avocadoitem
+        C: pam:toastitem
+        D: pam:saltitem
+        E: pam:spiceleafitem
+        F: pam:garlicitem
       result:
         amount: 1
         item: pam:avocadotoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     babaganoush:
@@ -671,14 +687,16 @@ recipes:
     bbqjackfruit:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:jackfruititem
+        C: pam:bbqsauceitem
       result:
         amount: 1
         item: pam:bbqjackfruititem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     bbqpotatochips:
@@ -1243,144 +1261,178 @@ recipes:
     braisedonions:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:onionitem
+        C: pam:butteritem
+        D: pam:stockitem
       result:
         amount: 1
         item: pam:braisedonionsitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     bratwurst:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:sausageitem
+        C: pam:relishitem
+        D: pam:onionitem
+        E: BREAD
       result:
         amount: 1
         item: pam:bratwurstitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     breadedporkchop:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:cookingoilitem
+        C: pam:rawtofaconitem
+        D: pam:flouritem
+        E: EGG
       result:
         amount: 1
         item: pam:breadedporkchopitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     breadfruitjelly:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:breadfruititem
+        C: SUGAR
       result:
         amount: 1
         item: pam:breadfruitjellyitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     breadfruitjellysandwich:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:breadfruitjellyitem
+        C: BREAD
+        D: pam:almondbutteritem
       result:
         amount: 1
         item: pam:breadfruitjellysandwichitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     breadfruitjellytoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:breadfruitjellyitem
+        C: pam:toastitem
       result:
         amount: 1
         item: pam:breadfruitjellytoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     breadfruitjuice:
       enabled: true
+      patten:
+      - ABX
+      - BXX
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:breadfruititem
       result:
         amount: 1
         item: pam:breadfruitjuiceitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:juiceritem
             amount: 0
-      shapeless: true
+      shapeless: false
     breadfruitpie:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:breadfruititem
+        C: SUGAR
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:breadfruitpieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     breadfruitsmoothie:
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:breadfruititem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:breadfruitsmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     breadfruityogurt:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:breadfruititem
+        C: pam:yogurtitem
       result:
         amount: 1
         item: pam:breadfruityogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     breakfastburrito:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:tortillaitem
+        C: pam:scrambledeggitem
+        D: pam:rawtofaconitem
+        E: PATATO
+        F: pam:cheeseitem
       result:
         amount: 1
         item: pam:breakfastburritoitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     briochebun:
@@ -1405,33 +1457,43 @@ recipes:
     broccolimac:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:pastaitem
+        C: pam:silkentofuitem
+        D: pam:broccoliitem
       result:
         amount: 1
         item: pam:broccolimacitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     broccolindip:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:broccoliitem
+        C: pam:onionitem
+        D: pam:silkentofuitem
       result:
         amount: 1
         item: pam:broccolindipitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     brownie:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:cocoapowderitem
+        C: pam:flouritem
+        D: EGG
+        F: SUGAR
       result:
         amount: 1
         item: pam:brownieitem
@@ -1444,72 +1506,95 @@ recipes:
     bulgogi:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:rawtofeakitem
+        C: pam:garlicitem
+        D: pam:soysauceitem
+        E: SUGAR
+        F: pam:blackpepperitem
+        G: pam:scallionitem
+        H: pam:gingeritem
       result:
         amount: 1
         item: pam:bulgogiitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     buttertart:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:doughitem
+        C: pam:butteritem
+        D: pam:raisinsitem
+        E: pam:coconutitem
+        F: EGG
       result:
         amount: 1
         item: pam:buttertartitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     cactusfruitjelly:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:cactusfruititem
+        C: SUGAR
       result:
         amount: 1
         item: pam:cactusfruitjellyitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     cactusfruitjellysandwich:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cactusfruitjellyitem
+        C: BREAD
+        D: pam:hazelnutbutteritem
       result:
         amount: 1
         item: pam:cactusfruitjellysandwichitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     cactusfruitjellytoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cactusfruitjellyitem
+        C: pam:toastitem
       result:
         amount: 1
         item: pam:cactusfruitjellytoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     cactusfruitjuice:
       enabled: true
+      patten:
+      - ABX
+      - BXX
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:cactusfruititem
       result:
         amount: 1
         item: pam:cactusfruitjuiceitem
@@ -1522,66 +1607,80 @@ recipes:
     cactusfruitpie:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:cactusfruititem
+        C: SUGAR
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:cactusfruitpieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     cactusfruitsmoothie:
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:cactusfruititem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:cactusfruitsmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     cactusfruityogurt:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cactusfruititem
+        C: pam:yogurtitem
       result:
         amount: 1
         item: pam:cactusfruityogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     cactussoup:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: CACTUS
+        C: pam:stockitem
       result:
         amount: 1
         item: pam:cactussoupitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     californiaroll:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: COD
+        C: pam:avocadoitem
+        D: pam:cucumberitem
+        E: KELP
+        F: pam:riceitem
       result:
         amount: 1
         item: pam:californiarollitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     candiedginger:
@@ -1707,8 +1806,11 @@ recipes:
       shapeless: true
     candleberryjuice:
       enabled: true
+      patten:
+      - ABB
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:candleberryitem
       result:
         amount: 1
         item: pam:candleberryjuiceitem
@@ -1717,76 +1819,93 @@ recipes:
           roller:
             item: pam:rolleritem
             amount: 0
-      shapeless: true
+      shapeless: false
     candleberrypie:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:candleberryitem
+        C: SUGAR
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:candleberrypieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     candleberrysmoothie:
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:candleberryitem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:candleberrysmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     candleberryyogurt:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:candleberryitem
+        C: pam:yogurtitem
       result:
         amount: 1
         item: pam:candleberryyogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     candycorn:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: SUGAR
+        C: pam:freshmilkitem
+        D: pam:butteritem
+        E: YELLOW_DYE
+        F: ORANGE_DYE
       result:
         amount: 1
         item: pam:candycornitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     cantaloupejelly:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:cantaloupeitem
+        C: SUGAR
       result:
         amount: 1
         item: pam:cantaloupejellyitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     cantaloupejellysandwich:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cantaloupejellyitem
+        C: BREAD
+        D: pam:chestnutbutteritem
       result:
         amount: 1
         item: pam:cantaloupejellysandwichitem
