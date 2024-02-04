@@ -51,23 +51,29 @@ recipes:
     applecider:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: APPLE
+        C: SUGAR
       result:
         amount: 1
         item: pam:applecideritem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     applefritter:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: APPLE
+        C: SUGAR
+        D: pam:doughitem
+        E: pam:cookingoilitem
       result:
         amount: 1
-        item: pam:applefritteritem
+        item: pam:potitem
       return_item:
         decrement_durability:
           roller:
@@ -103,131 +109,149 @@ recipes:
     apricotglazedpork:
       enabled: true
       ingredients:
-        A:
+        A: COOKED_PORKCHOP
+        B: pam:apricotjellyitem
       result:
         amount: 1
         item: pam:apricotglazedporkitem
-      return_item:
-        decrement_durability:
-          roller:
-            item: pam:rolleritem
-            amount: 0
       shapeless: true
-    apricotjelly:
+    apricotjelly: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:apricotjuiceitem
+        C: SUGAR
       result:
         amount: 1
         item: pam:apricotjellyitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
-    apricotjellysandwich:
+    apricotjellysandwich: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:apricotjellyitem
       result:
         amount: 1
         item: pam:apricotjellysandwichitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
-    apricotjellytoast:
+    apricotjellytoast: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:apricotjellyitem
       result:
         amount: 1
         item: pam:apricotjellytoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
-    apricotjuice:
+    apricotjuice: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:apricotitem
       result:
         amount: 1
         item: pam:apricotjuiceitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:juiceritem
             amount: 0
       shapeless: true
-    apricotpie:
+    apricotpie: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: SUGAR
+        C: pam:apricotitem
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:apricotpieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
-    apricotsmoothie:
+    apricotsmoothie: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:apricotjuiceitem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:apricotsmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
-    apricotyogurt:
+    apricotyogurt: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:yogurtitem
+        C: pam:apricotitem
       result:
         amount: 1
         item: pam:apricotyogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     asparagusquiche:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:asparagusitem
+        C: pam:cheeseitem
+        D: pam:onionitem
+        E: EGG
       result:
         amount: 1
         item: pam:asparagusquicheitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     avocadoburrito:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:avocadoitem
+        C: pam:cheeseitem
+        D: pam:tortillaitem
+        E: COOKED_PORKCHOP
       result:
         amount: 1
         item: pam:avocadoburritoitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     avocadotoast:
@@ -246,14 +270,19 @@ recipes:
     babaganoush:
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:eggplantitem
+        C: pam:garlicitem
+        D: pam:lemonitem
+        E: pam:spiceleafitem
+        F: pam:cookingoilitem
       result:
         amount: 1
         item: pam:babaganoushitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     baconmushroomburger:
@@ -277,105 +306,128 @@ recipes:
     baconpancakes:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:batteritem
+        C: pam:freshmilkitem
+        D: COOKED_PORKCHOP
       result:
         amount: 1
         item: pam:baconpancakesitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     baconwrappedchili:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:chiliitem
+        C: COOKED_PORKCHOP
       result:
         amount: 1
         item: pam:baconwrappedchiliitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     baconwrappeddates:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:dateitem
+        C: COOKED_PORKCHOP
       result:
         amount: 1
         item: pam:baconwrappeddatesitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     bakedalaska:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:meringueitem
+        C: pam:doughitem
+        D: pam:icecreamitem
+        E: SUGAR
       result:
         amount: 1
         item: pam:bakedalaskaitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     bakedbeans:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:beanitem
+        C: SUGAR
+        D: COOKED_PORKCHOP
       result:
         amount: 1
         item: pam:bakedbeansitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     bakedcactus:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:cactusfruititem
       result:
         amount: 1
         item: pam:bakedcactusitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     bakedham:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: APPLE
+        C: SUGAR
+        D: PORKCHOP
       result:
         amount: 1
         item: pam:bakedhamitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     baklava:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:doughitem
+        C: pam:pecanitem
+        D: pam:cinnamonitem
+        E: pam:butteritem
+        F: SUGAR
       result:
         amount: 1
         item: pam:baklavaitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     bamboosteamedrice:
@@ -393,173 +445,209 @@ recipes:
               item: pam:grinderitem
               amount: 0
       shapeless: true
-    bananajelly:
+    bananajelly: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:bananajuiceitem
+        C: SUGAR
       result:
         amount: 1
         item: pam:bananajellyitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
-    bananajellysandwich:
+    bananajellysandwich: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:bananajellyitem
       result:
         amount: 1
         item: pam:bananajellysandwichitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
-    bananajellytoast:
+    bananajellytoast: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:bananajellyitem
       result:
         amount: 1
         item: pam:bananajellytoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
-    bananajuice:
+    bananajuice: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:bananaitem
       result:
         amount: 1
         item: pam:bananajuiceitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:juiceritem
             amount: 0
       shapeless: true
-    banananutbread:
+    bananapie: #-
       enabled: true
       ingredients:
-        A:
-      result:
-        amount: 1
-        item: pam:banananutbreaditem
-      return_item:
-        decrement_durability:
-          roller:
-            item: pam:rolleritem
-            amount: 0
-      shapeless: true
-    bananapie:
-      enabled: true
-      ingredients:
-        A:
+        A: pam:bakewareitem
+        B: SUGAR
+        C: pam:bananaitem
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:bananapieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
-    bananasmoothie:
+    bananasmoothie: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:bananajuiceitem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:bananasmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
-    bananasplit:
+    bananayogurt: #-
       enabled: true
       ingredients:
-        A:
-      result:
-        amount: 1
-        item: pam:bananasplititem
-      return_item:
-        decrement_durability:
-          roller:
-            item: pam:rolleritem
-            amount: 0
-      shapeless: true
-    bananayogurt:
-      enabled: true
-      ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:yogurtitem
+        C: pam:bananaitem
       result:
         amount: 1
         item: pam:bananayogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
+            amount: 0
+      shapeless: true
+    banananutbread:
+      enabled: true
+      ingredients:
+        A: pam:bakewareitem
+        B: pam:bananaitem
+        C: pam:pecanitem
+        D: pam:flouritem
+        E: pam:freshmilkitem
+        F: pam:saltitem
+      result:
+        amount: 1
+        item: pam:banananutbreaditem
+      return_item:
+        decrement_durability:
+          roller:
+            item: pam:bakewareitem
+            amount: 0
+      shapeless: true
+    bananasplit:
+      enabled: true
+      ingredients:
+        A: pam:mixingbowlitem
+        B: pam:bananaitem
+        C: pam:cherryitem
+        D: pam:strawberryitem
+        E: pam:cocoapowderitem
+        F: pam:icecreamitem
+      result:
+        amount: 1
+        item: pam:bananasplititem
+      return_item:
+        decrement_durability:
+          roller:
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     bangersandmash:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:sausageitem
+        C: pam:mashedpotatoesitem
       result:
         amount: 1
         item: pam:bangersandmashitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     battenberg:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:doughitem
+        C: pam:apricotjellyitem
+        D: pam:almondbutteritem
+        E: YELLOW_DYE
+        F: PINK_DYE
+        G: SUGAR
       result:
         amount: 1
         item: pam:battenbergitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     batteredsausage:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:sausageitem
+        C: pam:batteritem
       result:
         amount: 1
         item: pam:batteredsausageitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     bbqchickenbiscuit:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:chickenbiscuititem
+        C: pam:bbqsauceitem
       result:
         amount: 1
         item: pam:bbqchickenbiscuititem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     bbqchickenpizza:
@@ -596,14 +684,18 @@ recipes:
     bbqpotatochips:
       enabled: false
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:potatochipsitem
+        C: pam:ketchupitem
+        D: pam:vinegaritem
+        E: SUGAR
       result:
         amount: 1
         item: pam:bbqpotatochipsitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
 #    bbqpulledpork:
@@ -623,6 +715,23 @@ recipes:
 #            item: pam:cuttingboarditem
 #            amount: 1
 #      shapeless: true
+    bbqpulledpork:
+      enabled: false
+      ingredients:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:tomatoitem
+        D: pam:spiceleafitem
+        E: COOKED_PORKCHOP
+      result:
+        amount: 1
+        item: pam:bbqpulledporkitem
+      return_item:
+        decrement_durability:
+          roller:
+            item: pam:cuttingboarditem
+            amount: 0
+      shapeless: true
     bbqsauce:
       enabled: true
       ingredients:
@@ -641,14 +750,18 @@ recipes:
     beanburrito:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:beanitem
+        C: pam:tortillaitem
+        D: pam:cheeseitem
+        E: pam:riceitem
       result:
         amount: 1
         item: pam:beanburritoitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     beancornmeal:
@@ -685,40 +798,53 @@ recipes:
     beansontoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:butteritem
+        D: pam:bakedbeansitem
       result:
         amount: 1
         item: pam:beansontoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     beefwellington:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:spinachitem
+        C: pam:doughitem
+        D: pam:groundbeefitem
+        E: pam:whitemushroomitem
       result:
         amount: 1
         item: pam:beefwellingtonitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
-    beetburger:
+    beetburger: #相对原版进行改动
       enabled: false
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:gourmetbeefpattyitem
+        C: pam:friedeggitem
+        D: pam:pineappleitem
+        E: pam:toastitem
+        F: COOKED_PORKCHOP
+        G: BEETROOT
       result:
         amount: 1
         item: pam:beetburgeritem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     bentobox:
@@ -737,82 +863,102 @@ recipes:
               item: pam:cuttingboarditem
               amount: 0
       shapeless: true
-    berrymeringuenest:
+    berrymeringuenest: #浆果蛋白巢→什锦浆果蛋白巢
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:meringueitem
+        C: pam:yogurtitem
+        D: pam:blueberryitem
+        E: pam:cranberryitem
+        F: pam:raspberryitem
       result:
         amount: 1
         item: pam:berrymeringuenestitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
-    berryvinaigrettesalad:
-      enabled: false
+    berryvinaigrettesalad: #浆果油醋沙拉→生菜黑莓油醋沙拉
+      enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:saladdressingitem
+        C: pam:lettuceitem
+        D: pam:blackberryitem
       result:
         amount: 1
         item: pam:berryvinaigrettesaladitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     bibimbap:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:riceitem
+        C: pam:lettuceitem
+        D: pam:cookedgroundporkitem
+        E: pam:breadedporkchopitem
+        F: EGG
       result:
         amount: 1
         item: pam:bibimbapitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     biscuit:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:butteritem
+        C: pam:doughitem
       result:
         amount: 1
         item: pam:biscuititem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     biscuitsandgravy:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:biscuititem
+        C: pam:gravyitem
       result:
         amount: 1
         item: pam:biscuitsandgravyitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     blackberrycobbler:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:blackberryitem
+        C: pam:doughitem
+        D: SUGAR
       result:
         amount: 1
         item: pam:blackberrycobbleritem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     blackberryjelly:
@@ -861,56 +1007,64 @@ recipes:
             item: pam:cuttingboarditem
             amount: 0
       shapeless: true
-    blackberryjuice:
+    blackberryjuice: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:blackberryitem
       result:
         amount: 1
         item: pam:blackberryjuiceitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:juiceritem
             amount: 0
       shapeless: true
-    blackberrypie:
+    blackberrypie: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: SUGAR
+        C: pam:blackberryitem
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:blackberrypieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
-    blackberrysmoothie:
+    blackberrysmoothie: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:blackberryjuiceitem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:blackberrysmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
-    blackberryyogurt:
+    blackberryyogurt: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:yogurtitem
+        C: pam:blackberryitem
       result:
         amount: 1
         item: pam:blackberryyogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     blackpepper:
@@ -930,14 +1084,18 @@ recipes:
     blt:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:lettuceitem
+        C: pam:tomatoitem
+        D: pam:toastitem
+        E: COOKED_PORKCHOP
       result:
         amount: 1
         item: pam:bltitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     blueberryjelly:
@@ -1000,62 +1158,79 @@ recipes:
             item: pam:juiceritem
             amount: 0
       shapeless: true
-    blueberrypie:
+    blueberrypie: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: SUGAR
+        C: pam:blueberryitem
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:blueberrypieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
-    blueberrysmoothie:
+    blueberrysmoothie: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:blueberryjuiceitem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:blueberrysmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
-    blueberryyogurt:
+    blueberryyogurt: #-
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:yogurtitem
+        C: pam:blueberryitem
       result:
         amount: 1
         item: pam:blueberryyogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     bologna:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:groundporkitem
+        C: pam:groundbeefitem
+        D: pam:onionitem
+        E: pam:garlicitem
+        F: SUGAR
       result:
-        amount: 1
+        amount: 3
         item: pam:bolognaitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     bolognasandwich:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:lettuceitem
+        C: pam:tomatoitem
+        D: pam:mayonaiseitem
+        E: pam:bolognaitem
+        F: BREAD
       result:
         amount: 1
         item: pam:bolognasandwichitem
