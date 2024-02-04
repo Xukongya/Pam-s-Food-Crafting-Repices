@@ -1918,92 +1918,114 @@ recipes:
     cantaloupejellytoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cantaloupejellyitem
+        C: pam:toastitem
       result:
         amount: 1
         item: pam:cantaloupejellytoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     cantaloupejuice:
       enabled: true
+      patten:
+      - ABB
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:cantaloupeitem
       result:
         amount: 1
         item: pam:cantaloupejuiceitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:juiceritem
             amount: 0
       shapeless: true
     cantaloupepie:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:cantaloupeitem
+        C: SUGAR
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:cantaloupepieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     cantaloupesmoothie:
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:cantaloupeitem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:cantaloupesmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     cantaloupeyogurt:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cantaloupeitem
+        C: pam:yogurtitem
       result:
         amount: 1
         item: pam:cantaloupeyogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     cantonesegreens:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:cabbageitem
+        C: pam:oystersauceitem
       result:
         amount: 1
         item: pam:cantonesegreensitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     cantonesenoodles:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:pastaitem
+        C: pam:rawtofeakitem
+        D: pam:boiledeggitem
+        E: pam:cronitem
+        F: pam:carrotitem
+        G: pam:cabbageitem
+        H: BROWN_MUSHROOM
+        I: pam:oystersauceitem
       result:
         amount: 1
         item: pam:cantonesenoodlesitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     capresesalad:
@@ -2024,8 +2046,11 @@ recipes:
       shapeless: true
     carrotjuice:
       enabled: true
+      patten:
+      - ABB
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: CARROT
       result:
         amount: 1
         item: pam:carrotjuiceitem
@@ -2034,7 +2059,7 @@ recipes:
           roller:
             item: pam:rolleritem
             amount: 0
-      shapeless: true
+      shapeless: false
     cashewbutter:
       enabled: true
       ingredients:
@@ -2052,14 +2077,19 @@ recipes:
     cashewchicken:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:rawtofickenitem
+        C: pam:cashewitem
+        D: pam:riceitem
+        E: pam:bellpepperitem
+        F: pam:chilipepperitem
       result:
         amount: 1
         item: pam:cashewchickenitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     ceasarsalad:
@@ -2084,98 +2114,130 @@ recipes:
     celeryandpeanutbutter:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:celeryitem
+        C: pam:peanutbutteritem
       result:
         amount: 1
         item: pam:celeryandpeanutbutteritem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     ceviche:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:rawtofishitem
+        C: pam:saltitem
+        D: pam:lemonitem
+        E: pam:onionitem
+        F: pam:sweetpotatoitem
+        G: pam:spiceleafitem
       result:
         amount: 1
         item: pam:cevicheitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     chaitea:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:tealeafitem
+        C: pam:groundcinnamonitem
+        D: pam:blackpepperitem
       result:
         amount: 1
         item: pam:chaiteaitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     charsiu:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:cookedtofaconitem
+        C: pam:hoisinsauceitem
+        D: pam:fivespiceitem
+        E: SUGAR
+        F: pam:soysauceitem
       result:
         amount: 1
         item: pam:charsiuitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     cheddarandsourcreampotatochips:
-      enabled: false
+      enabled: true
+      patten:
+      - ABB
+      - CDX
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:cheeseitem
+        C: POTATO
+        D: pam:cookingoilitem
       result:
         amount: 1
         item: pam:cheddarandsourcreampotatochipsitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
-      shapeless: true
+      shapeless: false
     cheesedanish:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:doughitem
+        C: pam:cheeseitem
+        D: pam:creamitem
       result:
         amount: 1
         item: pam:cheesedanishitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     cheeseontoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:toastitem
+        C: pam:cheeseitem
       result:
         amount: 1
         item: pam:cheeseontoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     cheesesteak:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:rawtofeakitem
+        D: pam:cheeseitem
+        E: pam:bellpepperitem
+        F: pam:onionitem
       result:
         amount: 1
         item: pam:cheesesteakitem
@@ -2188,40 +2250,49 @@ recipes:
     cheesytacotortillachips:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:cornmealitem
+        C: pam:cookingoilitem
+        D: pam:cheeseitem
+        E: pam:spiceleafitem
       result:
         amount: 1
         item: pam:cheesytacotortillachipsitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     cheezepuffs:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:cornmealitem
+        C: pam:cheeseitem
       result:
         amount: 1
         item: pam:cheezepuffsitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     cherrycoconutchocolatebar:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:chocolatebaritem
+        C: pam:cherryitem
+        D: pam:coconutitem
       result:
         amount: 1
         item: pam:cherrycoconutchocolatebaritem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     cherryicecream:
@@ -2242,105 +2313,126 @@ recipes:
     cherryjelly:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:cherryitem
+        C: SUGAR
       result:
         amount: 1
         item: pam:cherryjellyitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     cherryjellysandwich:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cherryjellyitem
+        C: BREAD
+        D: pam:hazelnutbutteritem
       result:
         amount: 1
         item: pam:cherryjellysandwichitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     cherryjellytoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cherryjellyitem
+        C: pam:toastitem
       result:
         amount: 1
         item: pam:cherryjellytoastitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     cherryjuice:
       enabled: true
+      patten:
+      - ABX
+      - BXX
       ingredients:
-        A:
+        A: pam:juiceritem
+        B: pam:cherryitem
       result:
         amount: 1
         item: pam:cherryjuiceitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:juiceritem
             amount: 0
-      shapeless: true
+      shapeless: false
     cherrypie:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:cherryitem
+        C: SUGAR
+        D: pam:doughitem
       result:
         amount: 1
         item: pam:cherrypieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     cherrysmoothie:
       enabled: true
       ingredients:
-        A:
+        A: pam:mixingbowlitem
+        B: pam:cherryitem
+        C: SNOWBALL
       result:
         amount: 1
         item: pam:cherrysmoothieitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:mixingbowlitem
             amount: 0
       shapeless: true
     cherrysoda:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:freshwateritem
+        C: SUGAR
+        D: pam:cherryitem
       result:
         amount: 1
         item: pam:cherrysodaitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:potitem
             amount: 0
       shapeless: true
     cherryyogurt:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cherryitem
+        C: pam:yogurtitem
       result:
         amount: 1
         item: pam:cherryyogurtitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     chestnutbutter:
@@ -2360,7 +2452,11 @@ recipes:
     chickenalfredo:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:rawtofickenitem
+        C: pam:creamitem
+        D: pam:spiceleafitem
+        E: pam:pastaitem
       result:
         amount: 1
         item: pam:chickenalfredoitem
@@ -2373,40 +2469,49 @@ recipes:
     chickenandwaffles:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:friedchickenitem
+        C: pam:wafflesitem
       result:
         amount: 1
         item: pam:chickenandwafflesitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     chickenbiscuit:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:friedchickenitem
+        C: pam:biscuititem
       result:
         amount: 1
         item: pam:chickenbiscuititem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     chickencelerycasserole:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:celeryitem
+        C: pam:rawtofickenitem
+        D: pam:garlicitem
+        E: CARROT
+        F: RED_MUSHROOM
       result:
         amount: 1
         item: pam:chickencelerycasseroleitem
       return_item:
         decrement_durability:
           roller:
-            item: pam:rolleritem
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     chickenchowmein:
