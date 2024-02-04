@@ -12304,14 +12304,19 @@ recipes:
     turkishdelight:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:orangeitem
+        C: WATER_BUCKET
+        D: pam:pistachioitem
+        E: SUGAR
+        F: pam:vanillabeanitem
       result:
         amount: 1
         item: pam:turkishdelightitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          pot:
+            item: pam:vanillabeanitem
             amount: 0
       shapeless: true
     vanilla:
@@ -12331,14 +12336,18 @@ recipes:
     vanillaconchasbread:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:doughitem
+        C: pam:vanillaitem
+        D: EGG
+        E: SUGAR
       result:
         amount: 1
         item: pam:vanillaconchasbreaditem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          bakeware:
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     vanillaicecream:
@@ -12359,31 +12368,37 @@ recipes:
     vegemite:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:spiceleafitem
+        C: pam:barleyitem
+        D: WATER_BUCKET
+        E: SUGAR
       result:
         amount: 1
         item: pam:vegemiteitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          pot:
+            item: pam:potitem
             amount: 0
       shapeless: true
     vegemiteontoast:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:toastitem
+        C: pam:vegemiteitem
       result:
         amount: 1
         item: pam:vegemiteontoastitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          cuttingboard:
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     vegetablesoup:
-      enabled: true
+      enabled: false
       ingredients:
         A:
       result:
@@ -12398,27 +12413,35 @@ recipes:
     vegetarianlettucewrap:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:cucumberitem
+        C: pam:tomatoitem
+        D: pam:lettuceitem
       result:
         amount: 1
         item: pam:vegetarianlettucewrapitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          cuttingboard:
+            item: pam:cuttingboarditem
             amount: 0
       shapeless: true
     veggiestirfry:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:bellpepperitem
+        C: CARROT
+        D: pam:riceitem
+        E: pam:onionitem
+        F: pam:cornitem
       result:
         amount: 1
         item: pam:veggiestirfryitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          skillet:
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     veggiestrips:
@@ -12437,27 +12460,36 @@ recipes:
     vindaloo:
       enabled: true
       ingredients:
-        A:
+        A: pam:saucepanitem
+        B: pam:currypowderitem
+        C: pam:butteritem
+        D: pam:blackpepperitem
+        E: pam:onionitem
+        F: PORKCHOP
       result:
         amount: 1
         item: pam:vindalooitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          saucepan:
+            item: pam:saucepanitem
             amount: 0
       shapeless: true
     waffles:
       enabled: true
       ingredients:
-        A:
+        A: pam:skilletitem
+        B: pam:cookingoilitem
+        C: pam:batteritem
+        D: pam:butteritem
+        E: EGG
       result:
         amount: 1
         item: pam:wafflesitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          skillet:
+            item: pam:skilletitem
             amount: 0
       shapeless: true
     walnutbutter:
@@ -12477,31 +12509,41 @@ recipes:
     walnutraisinbread:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:walnutitem
+        C: pam:doughitem
+        D: pam:groundcinnamonitem
+        E: pam:raisinsitem
       result:
         amount: 1
         item: pam:walnutraisinbreaditem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          bakeware:
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
+
     weekendpicnic:
       enabled: true
       ingredients:
-        A:
+        A: pam:cuttingboarditem
+        B: pam:friedchickenitem
+        C: pam:potatochipsitem
+        D: pam:springsaladitem
+        E: pam:colasodaitem
+        F: pam:potatosaladitem
       result:
         amount: 1
         item: pam:weekendpicnicitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          cuttingboard:
+            item: pam:weekendpic
             amount: 0
       shapeless: true
     wontonsoup:
-      enabled: true
+      enabled: false
       ingredients:
         A:
       result:
@@ -12516,53 +12558,70 @@ recipes:
     yorkshirepudding:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:batteritem
+        C: pam:saltitem
+        D: MILK_BUCKET
+        E: pam:stockitem
       result:
         amount: 1
         item: pam:yorkshirepuddingitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          bakeware:
+            item: pam:bakewareitem
             amount: 0
+      shapeless: true
       shapeless: true
     zeppole:
       enabled: true
       ingredients:
-        A:
+        A: pam:potitem
+        B: pam:doughitem
+        C: pam:groundcinnamonitem
+        D: pam:cookingoilitem
       result:
         amount: 1
         item: pam:zeppoleitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          pot:
+            item: pam:potitem
             amount: 0
       shapeless: true
     zestyzucchini:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:zucchinitem
+        C: pam:pastaitem
+        D: pam:garlicitem
+        E: pam:cheeseitem
       result:
         amount: 1
         item: pam:zestyzucchiniitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          bakeware:
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     zucchinibake:
       enabled: true
       ingredients:
-        A:
+        A: pam:bakewareitem
+        B: pam:zucchiniitem
+        C: pam:tomatoitem
+        D: pam:cornitem
+        E: pam:cheeseitem
+        F: pam:toastitem
       result:
         amount: 1
         item: pam:zucchinibakeitem
       return_item:
         decrement_durability:
-          roller:
-            item: pam:rolleritem
+          bakeware:
+            item: pam:bakewareitem
             amount: 0
       shapeless: true
     zucchinifries:
